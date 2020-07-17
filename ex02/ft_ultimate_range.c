@@ -6,11 +6,11 @@
 /*   By: kamotaun <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/16 10:33:11 by kamotaun          #+#    #+#             */
-/*   Updated: 2020/07/16 11:23:17 by kamotaun         ###   ########.fr       */
+/*   Updated: 2020/07/17 10:06:17 by kamotaun         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <stdlib.h>
-#include <>
+#include <unistd.h>
 int ft_ultimate_range(int **range, int min, int max){
 	if(min >= max){
 		*range = ((void*)0);
